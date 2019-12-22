@@ -1,4 +1,5 @@
 docker-compose up
+
 http://localhost:7000/api/values
 
 You will see:
@@ -16,7 +17,6 @@ RUN apt-get update && apt-get install -y \
 until nc -z -v -w30 localhost 1433
 do
   echo "Waiting for database connection..."
-  # wait for 5 seconds before check again
   sleep 5
 done
 
