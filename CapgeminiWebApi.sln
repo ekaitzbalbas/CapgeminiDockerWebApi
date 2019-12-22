@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapgeminiWebApi", "CapgeminiWebApi\CapgeminiWebApi.csproj", "{08B7896B-CF89-4D0D-81F5-FE76DBF6EA4D}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E2DA7CAC-430C-4B8B-B7B7-684343AD8CBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08B7896B-CF89-4D0D-81F5-FE76DBF6EA4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B7896B-CF89-4D0D-81F5-FE76DBF6EA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B7896B-CF89-4D0D-81F5-FE76DBF6EA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B7896B-CF89-4D0D-81F5-FE76DBF6EA4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2DA7CAC-430C-4B8B-B7B7-684343AD8CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2DA7CAC-430C-4B8B-B7B7-684343AD8CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2DA7CAC-430C-4B8B-B7B7-684343AD8CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2DA7CAC-430C-4B8B-B7B7-684343AD8CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12E21C50-41C8-455C-A7C1-D02BBF875974}
+	EndGlobalSection
+EndGlobal

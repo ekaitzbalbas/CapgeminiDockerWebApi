@@ -1,0 +1,13 @@
+C:\Users\jordi\source\repos\CapgeminiWebApi\CapgeminiWebApi\bin\Debug\netcoreapp2.2\CapgeminiWebApi.deps.json
+C:\Users\jordi\source\repos\CapgeminiWebApi\CapgeminiWebApi\bin\Debug\netcoreapp2.2\CapgeminiWebApi.runtimeconfig.json
+C:\Users\jordi\source\repos\CapgeminiWebApi\CapgeminiWebApi\bin\Debug\netcoreapp2.2\CapgeminiWebApi.runtimeconfig.dev.json
+C:\Users\jordi\source\repos\CapgeminiWebApi\CapgeminiWebApi\bin\Debug\netcoreapp2.2\CapgeminiWebApi.dll
+C:\Users\jordi\source\repos\CapgeminiWebApi\CapgeminiWebApi\bin\Debug\netcoreapp2.2\CapgeminiWebApi.pdb
+C:\Users\jordi\source\repos\CapgeminiWebApi\CapgeminiWebApi\obj\Debug\netcoreapp2.2\CapgeminiWebApi.csproj.CoreCompileInputs.cache
+C:\Users\jordi\source\repos\CapgeminiWebApi\CapgeminiWebApi\obj\Debug\netcoreapp2.2\CapgeminiWebApi.RazorAssemblyInfo.cache
+C:\Users\jordi\source\repos\CapgeminiWebApi\CapgeminiWebApi\obj\Debug\netcoreapp2.2\CapgeminiWebApi.RazorAssemblyInfo.cs
+C:\Users\jordi\source\repos\CapgeminiWebApi\CapgeminiWebApi\obj\Debug\netcoreapp2.2\CapgeminiWebApi.AssemblyInfoInputs.cache
+C:\Users\jordi\source\repos\CapgeminiWebApi\CapgeminiWebApi\obj\Debug\netcoreapp2.2\CapgeminiWebApi.AssemblyInfo.cs
+C:\Users\jordi\source\repos\CapgeminiWebApi\CapgeminiWebApi\obj\Debug\netcoreapp2.2\CapgeminiWebApi.RazorTargetAssemblyInfo.cache
+C:\Users\jordi\source\repos\CapgeminiWebApi\CapgeminiWebApi\obj\Debug\netcoreapp2.2\CapgeminiWebApi.dll
+C:\Users\jordi\source\repos\CapgeminiWebApi\CapgeminiWebApi\obj\Debug\netcoreapp2.2\CapgeminiWebApi.pdb

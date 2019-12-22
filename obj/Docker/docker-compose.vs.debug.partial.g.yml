@@ -1,0 +1,20 @@
+version: '3.5'
+
+services:
+  capgeminiwebapi:
+    image: capgeminiwebapi:dev
+    build:
+      target: base
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_capgeminiwebapi$
+    volumes:
+      - C:\Users\jordi\source\repos\CapgeminiWebApi\CapgeminiWebApi:/app
+      - C:\Users\jordi\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_capgeminiwebapi$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_capgeminiwebapi$ bin/Debug/netcoreapp2.2/CapgeminiWebApi.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""

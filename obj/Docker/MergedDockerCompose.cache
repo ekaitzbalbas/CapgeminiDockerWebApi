@@ -1,0 +1,35 @@
+networks:
+  localdev:
+    name: localdev
+services:
+  capgeminiwebapi:
+    build:
+      context: C:\Users\jordi\source\repos\CapgeminiWebApi
+      dockerfile: CapgeminiWebApi/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: capgeminiwebapi
+    networks:
+      localdev: {}
+    ports:
+    - published: 7000
+      target: 80
+    - target: 80
+    restart: always
+  db-server:
+    build:
+      context: C:\Users\jordi\source\repos\CapgeminiWebApi
+      dockerfile: sqlserver.Dockerfile
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: Nick1234
+      MSSQL_TCP_PORT: '1433'
+    image: sqlserver
+    networks:
+      localdev: {}
+    ports:
+    - published: 1433
+      target: 1433
+    volumes:
+    - /c/Users/jordi/source/repos/CapgeminiWebApi/data:/var/opt/mssql/data:rw
+version: '3.5'

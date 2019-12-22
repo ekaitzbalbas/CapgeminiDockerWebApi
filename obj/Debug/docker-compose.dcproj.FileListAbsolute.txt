@@ -1,0 +1,5 @@
+C:\Users\jordi\source\repos\CapgeminiWebApi\bin\Debug\CapgeminiWebApi.dll
+C:\Users\jordi\source\repos\CapgeminiWebApi\bin\Debug\CapgeminiWebApi.pdb
+C:\Users\jordi\source\repos\CapgeminiWebApi\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Users\jordi\source\repos\CapgeminiWebApi\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\jordi\source\repos\CapgeminiWebApi\obj\Debug\docker-compose.dcproj.CopyComplete
